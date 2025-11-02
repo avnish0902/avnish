@@ -1,6 +1,6 @@
 import { ThemeToggle } from "../components/ThemeToggle";
 import { StarBackground } from "@/components/StarBackground";
-// import { HeroSection } from "../components/HeroSection";
+import { HeroSection } from "../components/HeroSection";
 import React from 'react'
 
 
@@ -16,7 +16,7 @@ export default function Home(){
 
       {/* Main Content */}
       <main>
-        {/* <HeroSection /> */}
+        <HeroSection />
       </main>
 
     </div>
