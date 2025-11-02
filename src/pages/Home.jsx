@@ -1,6 +1,7 @@
 import { ThemeToggle } from "../components/ThemeToggle";
 import { StarBackground } from "@/components/StarBackground";
 import { HeroSection } from "../components/HeroSection";
+import Footer from "../components/Footer/Footer.jsx"
 import React from 'react'
 
 
@@ -18,6 +19,9 @@ export default function Home(){
       <main>
         <HeroSection />
       </main>
+
+      {/* Footer Section */}
+      <Footer/>
 
     </div>
   );
